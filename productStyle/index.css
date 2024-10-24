@@ -1,210 +1,295 @@
-.index{
+.index {
   /* section-one */
-.bg-banner {
-  img {
+  .bg-banner img {
     width: 100%;
     object-fit: cover;
   }
-}
-.btnGap-wei {
-  position: absolute;
-  top: 25rem;
-  left: 2.25rem;
-  gap: 24px;
-}
-.btnPrimary-wei {
-  padding: 14px 36px;
-  gap: 10px;
-
-  border-radius: 4px;
-  border: 2px solid #22355c;
-  background: #22355c;
-  color: #fff;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 500;
-  &:hover {
-    display: flex;
-    padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 4px;
-    border: 2px solid #f4b13e;
-    background: #f4b13e;
-    color: #22355c;
-    font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
+  .btnGap-wei {
+    position: absolute;
+    top: 25rem;
+    left: 2.25rem;
+    gap: 24px;
   }
-}
-.btnWhite-wei {
-  padding: 14px 36px;
-  gap: 10px;
-  border-radius: 4px;
-  border: 2px solid #22355c;
-  background: #fff;
-  color: #22355c;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: 500;
-  &:hover {
-    display: flex;
+  .btnPrimary-wei {
     padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
+    gap: 10px;
+
     border-radius: 4px;
-    border: 2px solid #f4b13e;
-    background: #f4b13e;
+    border: 2px solid #22355c;
+    background: #22355c;
     color: #fff;
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 500;
+    &:hover {
+      display: flex;
+      padding: 14px 36px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 4px;
+      border: 2px solid #f4b13e;
+      background: #f4b13e;
+      color: #22355c;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+    }
   }
-}
+  .btnWhite-wei {
+    padding: 14px 36px;
+    gap: 10px;
+    border-radius: 4px;
+    border: 2px solid #22355c;
+    background: #fff;
+    color: #22355c;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 500;
+    &:hover {
+      display: flex;
+      padding: 14px 36px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      border: 2px solid #f4b13e;
+      background: #f4b13e;
+      color: #fff;
+      font-family: "Open Sans";
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
 
-/* section-two */
-.height{
-  height: 100%;
-}
-.textCaring-wei {
-  color: #22355c;
-  font-family: "Open Sans";
-  font-size: 62px;
-  font-weight: 800;
-  line-height: 64px;
-}
-.textPaw-wei {
-  color: #f4b13e;
-  font-family: "Open Sans";
-  font-size: 62px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 64px;
-}
-.textLife-wei {
-  margin-top: 1.5rem;
-  color: #22355c;
-  font-family: Roboto;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 40px;
-}
-.textCP-wei {
-  margin-top: 5.5rem;
-}
-.sctNone-wei{
-  display: flex;
-}
-.pdgap10-wei{
-  margin-right: -1.5rem;
-}
-.mat50 {
-  margin-top: 4.5rem;
-}
-.textAB-wei {
-  color: #22355c;
-  font-family: Roboto;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 48px;
-}
-.textAB-content-wei {
-  color: #646464;
-  font-family: ABeeZee;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 200%;
-}
-/* media 1200 */
-@media (max-width: 1200px) {
-  .textCP-wei {
-    margin-top: 9.5rem;
-  }
-}
-/* media 992*/
-@media (max-width: 992px) {
-  /* section-one */
-  .bg-banner img {
-    margin-top: 1rem;
-    content: url(/assets/RWD992aboutBanner.png);
-    width: 100%;
-    object-fit: cover;
-  }
-  .btnGap-wei {
-    position: absolute;
-    top: 30rem;
-    left: 13.75rem;
-    gap: 24px;
-  }
-  .sctNone-wei{
-    display: block;
-  }
-  .pdgap10-wei{
-    margin-right: 0rem;
-  }
-}
-
-/* media 768*/
-@media (max-width: 768px) {
-  /* section-one */
-  .bg-banner img {
-    margin-top: 1rem;
-    content: url(/assets/RWD768aboutBanner.png);
-    width: 100%;
-    object-fit: cover;
-  }
-  .btnGap-wei {
-    position: absolute;
-    top: 23rem;
-    left: 7.75rem;
-    gap: 24px;
-  }
   /* section-two */
+  .height {
+    height: 100%;
+  }
+  .rcat-wei{
+    margin-top: 6rem;
+    margin-left: 3rem;
+  }
+  .secms-4{
+    margin-left: 1.5rem;
+  }
   .textCaring-wei {
     color: #22355c;
     font-family: "Open Sans";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 40px;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 64px;
   }
   .textPaw-wei {
     color: #f4b13e;
     font-family: "Open Sans";
-    font-size: 40px;
+    font-size: 62px;
     font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+  }
+  .textLife-wei {
+    margin-top: 1.5rem;
+    color: #22355c;
+    font-family: Roboto;
+    font-size: 40px;
     font-weight: 700;
     line-height: 40px;
   }
-  .textLife-wei {
+  /* 關於 PAWER */
+  .textCP-wei {
+    margin-top: 5.5rem;
+  }
+  .sctNone-wei {
+    display: flex;
+  }
+  .pdgap10-wei {
+    margin-right: -1.5rem;
+  }
+  .mat50 {
+    margin-top: 4.5rem;
+  }
+  .textAB-wei {
     color: #22355c;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 700;
-    line-height: 0px;
+    line-height: 48px;
   }
-  .rcat-wei img{
-    content: url(/assets/RWDrightCat.png);
-    width: 100%;
-    object-fit: cover;
-}
-}
-
-/* media 576*/
-@media (max-width: 576px) {
-  /* section-one */
-  .btnGap-wei {
-    position: absolute;
-    top: 17rem;
-    left: 2.75rem;
-    gap: 24px;
+  .textAB-content-wei {
+    color: #646464;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%;
   }
-  .rcat-wei img{
-    content: url(/assets/RWDrightCat.png);
-    width: 100%;
-    object-fit: cover;
-}
-}
+  /* 服務 */
+  .servings-wei{
+    margin-top: -4rem;
+  }
+  .serving-wei {
+    color: #f4b13e;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%;
+    white-space: nowrap;
+  }
+  .serving-content-wei {
+    color: #646464;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%;
+    white-space: nowrap;
+  }
+  .serving-contents-wei {
+    color: #646464;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 200%;
+    white-space: normal;
+  }
 
+  /* 願景 */
+  @media (max-width:1600px) {
+    .secms-4{
+      margin-left: 0rem;
+    }
+    .rcat-wei{
+      margin-top: 6rem;
+      margin-left: 0rem;
+    }
+  }
+  /* media 1440 */
+  @media (max-width: 1440px) {
+    .serving-wei {
+      color: #f4b13e;
+      font-family: ABeeZee;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 200%;
+      white-space: normal;
+    }
+    .serving-content-wei {
+      color: #646464;
+      font-family: ABeeZee;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 200%;
+      white-space: normal;
+    }
+  }
+  /* media 1320 */
+  @media (max-width: 1320px) {
+    .serving-wei {
+      color: #f4b13e;
+      font-family: ABeeZee;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 200%;
+      white-space: normal;
+    }
+    .serving-content-wei {
+      color: #646464;
+      font-family: ABeeZee;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 200%;
+      white-space: normal;
+    }
+  }
+  /* media 1200 */
+  @media (max-width: 1200px) {
+    .textCP-wei {
+      margin-top: 9.5rem;
+    }
+  }
+  /* media 992*/
+  @media (max-width: 992px) {
+    /* section-one */
+    .bg-banner img {
+      margin-top: 1rem;
+      content: url(/assets/RWD992aboutBanner.png);
+      width: 100%;
+      object-fit: cover;
+    }
+    .btnGap-wei {
+      position: absolute;
+      top: 30rem;
+      left: 13.75rem;
+      gap: 24px;
+    }
+    .sctNone-wei {
+      display: block;
+    }
+    .pdgap10-wei {
+      margin-right: 0rem;
+    }
+  }
+
+  /* media 768*/
+  @media (max-width: 768px) {
+    /* section-one */
+    .bg-banner img {
+      margin-top: 1rem;
+      content: url(/assets/RWD768aboutBanner.png);
+      width: 100%;
+      object-fit: cover;
+    }
+    .btnGap-wei {
+      position: absolute;
+      top: 23rem;
+      left: 7.75rem;
+      gap: 24px;
+    }
+    /* section-two */
+    .textCaring-wei {
+      color: #22355c;
+      font-family: "Open Sans";
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 40px;
+    }
+    .textPaw-wei {
+      color: #f4b13e;
+      font-family: "Open Sans";
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px;
+    }
+    .textLife-wei {
+      color: #22355c;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 0px;
+    }
+    .rcat-wei img {
+      content: url(/assets/RWDrightCat.png);
+      width: 100%;
+      object-fit: cover;
+    }
+    .rcat-wei{
+      margin-top: 0rem;
+    }
+  }
+
+  /* media 576*/
+  @media (max-width: 576px) {
+    /* section-one */
+    .btnGap-wei {
+      position: absolute;
+      top: 17rem;
+      left: 2.75rem;
+      gap: 24px;
+    }
+    .rcat-wei img {
+      content: url(/assets/RWDrightCat.png);
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 }
