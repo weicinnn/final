@@ -1,0 +1,22 @@
+.productList-crumb-wei {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 24px 36px;
+  a {
+    color: #707070;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #253559;
+  }
+
+  a.active {
+    color: #253559;
+  }
+}

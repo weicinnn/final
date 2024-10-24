@@ -1,0 +1,131 @@
+main {
+  height: 200vh;
+  margin-top: 104px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #253559;
+  z-index: 5000;
+}
+
+.navbar {
+  margin: 0 auto;
+  padding: 0 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    padding: 0 56px 0 30px;
+  }
+}
+
+.navbar-leftbtn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  .navbar-logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 20px;
+    width: 100px;
+  }
+
+  .navbar-rwd-listbar {
+    display: none;
+    cursor: pointer;
+
+    &:hover {
+      svg {
+        path {
+          fill: #b1b1b1;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .navbar-rwd-listbar {
+      display: flex;
+    }
+  }
+}
+
+.navbar-rightbtn {
+  display: flex;
+  gap: 20px;
+
+  .navbar-member,
+  .navbar-cart {
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    /* 手形鼠標 */
+    width: 30px;
+
+    &:hover {
+      svg {
+        path {
+          fill: #b1b1b1;
+        }
+      }
+    }
+  }
+}
+
+.navbar-list {
+  display: flex;
+  gap: 36px;
+
+  a {
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+
+    &:visited {
+      color: white;
+    }
+
+    /* 底線 */
+    &:hover::after {
+      content: "";
+      display: block;
+      width: 50%;
+      /* 底線依照原始比例寬度*/
+      height: 5px;
+      /* 粗細調整 */
+      background-color: #f4b434;
+      position: absolute;
+      left: 50%;
+      /* 置中 */
+      transform: translateX(-50%);
+      /* 使其居中 */
+      bottom: -8px;
+      /* 距離文字底部的位置 */
+      border-radius: 10px;
+      /* 圓滑的邊角 */
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-list {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0 14px 0 14px;
+  }
+  .navbar-rightbtn{
+    gap: 8px;
+  }
+}

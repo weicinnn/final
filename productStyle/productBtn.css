@@ -1,0 +1,35 @@
+.productList-sortSelect-wei {
+  color: #707070;
+  margin-top: 1.35rem;
+  height: 32px;
+  padding: 3px 23px;
+  border-radius: 30px;
+  border: 1px solid #bfbfbf;
+  background: var(--Miscellaneous-Floating-Tab---Pill-Fill, #fff);
+}
+.productList-perpage-wei {
+  color: #707070;
+  margin-top: 1.35rem;
+  height: 32px;
+  padding: 3px 23px;
+  border-radius: 30px;
+  border: 1px solid #bfbfbf;
+  background: var(--Miscellaneous-Floating-Tab---Pill-Fill, #fff);
+}
+
+@media (max-width: 576px) {
+  .productList-perpage-wei {
+    width: 64px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .productList-sortSelect-wei{
+    width: 80px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .productList-sortSvg-wei{
+    width: 10px;
+    height: 10px;
+  }
+}
