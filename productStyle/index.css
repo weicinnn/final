@@ -128,7 +128,7 @@
   /* section-one */
   .bg-banner img {
     margin-top: 1rem;
-    content: url(./assets/RWD992aboutBanner.png);
+    content: url(/assets/RWD992aboutBanner.png);
     width: 100%;
     object-fit: cover;
   }
@@ -151,7 +151,7 @@
   /* section-one */
   .bg-banner img {
     margin-top: 1rem;
-    content: url(./assets/RWD768aboutBanner.png);
+    content: url(/assets/RWD768aboutBanner.png);
     width: 100%;
     object-fit: cover;
   }
@@ -185,7 +185,7 @@
     line-height: 0px;
   }
   .rcat-wei img{
-    content: url(./assets/RWDrightCat.png);
+    content: url(/assets/RWDrightCat.png);
     width: 100%;
     object-fit: cover;
 }
@@ -201,7 +201,7 @@
     gap: 24px;
   }
   .rcat-wei img{
-    content: url(./assets/RWDrightCat.png);
+    content: url(/assets/RWDrightCat.png);
     width: 100%;
     object-fit: cover;
 }
